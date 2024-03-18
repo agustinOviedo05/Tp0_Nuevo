@@ -1,0 +1,52 @@
+.contenedor{
+min-height: 100vh; width: 90%; margin: auto;
+background-color: rgb(221, 214, 214);
+padding: 10px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    width: 100%;
+
+    & .logo{
+        color: black;
+        font-size: 29pt;
+    }
+
+    & .botonera {
+        display: flex;
+        font-size: 30pt;
+    }
+
+}
+
+.ban{
+    width: 100%;
+    height: 250px;
+    background-color: rgb(91, 133, 36);
+}
+
+.descrip{
+    width: 100%;
+    height: 200px;
+    background-color: lightgreen;
+}
+
+.productos{
+    width: 100%;
+    height: 200px;
+    background-color:bisque
+}
+.nosotros{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(160, 79, 65);
+}
+.pr{
+
+    width: 100%;
+    height: 200px;
+    background-color: rgb(59, 55, 55);
+}
+
