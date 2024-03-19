@@ -36,7 +36,14 @@ header{
 .productos{
     width: 100%;
     height: 200px;
-    background-color:bisque
+    background-color:bisque;
+    display: flex;
+    gap: 7px;
+    
+}
+.p{
+    flex: 1;
+    background-color: blueviolet;
 }
 .nosotros{
     width: 100%;
