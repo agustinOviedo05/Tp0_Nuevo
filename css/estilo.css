@@ -1,17 +1,24 @@
+*{
+    margin: 0;
+  box-sizing: border-box ;
+    padding: 0;
+}
+
 .contenedor{
 min-height: 100vh; width: 90%; margin: auto;
-background-color: rgb(221, 214, 214);
-padding: 10px;
+background-color: white;
 }
 header{
     display: flex;
     justify-content: space-between;
     height: 100px;
     width: 100%;
-
+    background-color: lightgrey;
     & .logo{
+        display: flex;
+        align-items: center;
         color: black;
-        font-size: 29pt;
+        font-size: 20pt;
     }
 
     & .botonera {
@@ -21,12 +28,6 @@ header{
 
 }
 
-.ban{
-    width: 100%;
-    height: 250px;
-    background-color: rgb(91, 133, 36);
-}
-
 .descrip{
     width: 100%;
     height: 200px;
@@ -34,21 +35,30 @@ header{
 }
 
 .productos{
+    margin-top: 2vh;
     width: 100%;
-    height: 200px;
+    min-height: 300px;
     background-color:bisque;
     display: flex;
     gap: 7px;
+    background-color: white;
     
 }
 .p{
     flex: 1;
-    background-color: blueviolet;
+    background-color: white;
+    height: 600px;
+ 
 }
 .nosotros{
+    margin-top: 2vh;
     width: 100%;
-    height: 200px;
+    height: 250px;
     background-color: rgb(160, 79, 65);
+    & .tituloNosotros{
+        color: white;
+        text-shadow: 3px 3px 7px black;
+    }
 }
 .pr{
 
@@ -57,3 +67,174 @@ header{
     background-color: rgb(59, 55, 55);
 }
 
+header{
+    height: 6vh;
+    font-size: 3vh;
+}
+
+i{
+    font-size: 3vh;
+}
+h1{
+  font-size: 40px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
+}
+img{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+
+.fotox{
+    height: 100%;
+    width: 50%;
+    background-color: aqua;
+}
+
+.descripcion{
+    position: relative;
+    height: 100%;
+    width: 50%;
+    background-color: beige;
+    & .titulo{
+        color: white;
+        text-shadow: 3px 3px 7px black;
+    }
+}
+
+.descrip{
+    margin-top: 2vh;
+    display: flex;
+}
+
+.titulo{
+    height: 3vh;
+    width:  100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.texto{
+    position: absolute;
+    left: 35%;
+    height: 100px;
+    width:  59%;
+    bottom: 55px;
+}
+footer{
+    height: 30px;
+    width: 100%;
+    margin: auto;
+    background-color: lightgrey;
+    text-align: center;
+}
+
+.ft1{
+    padding: 10px;
+    height: 59%;
+    width: 100%;
+ 
+}
+.txt1{
+    height: 41%;
+    width: 100%;
+    
+    position: relative;
+}
+.tituloNosotros{
+    height: 20;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+}
+.btn{
+    border: solid 1px; ;
+    background-color: transparent;
+    box-shadow: 0 0 15px 0 black;
+    padding: 5px 5px ;
+    width: 100%;
+    bottom: 10%;
+    position: absolute;
+    left: 0;
+}
+.btn:hover{
+    background-color: white;
+    box-shadow: 0 5px 15px 0 black; 
+}
+.btn:active{
+    background-color: gold;
+    box-shadow: 0 5px 15px 0 black;
+}
+
+.position-relative{
+    position: relative;
+}
+.pa{
+    position: absolute;
+}
+
+#ban{
+    margin-top: 2vh;
+    width: 100%;
+    height: 40vh;
+    background-color: rgb(91, 133, 36);
+    background-size: cover;
+}
+
+.imagen-fondo{
+width: 100%;
+object-fit: cover; 
+}
+
+.info{
+z-index: 0;
+top: 20%;
+left: 10%;
+color: white;
+}
+
+.divMG{
+    display: flex;
+    height: 250px;
+    width: 100%;
+    background-color: white;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.persona1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    width: 150px;
+    height: 150px;
+}
+.fotoP{
+    height: 1000px;
+    width: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.edad{
+    height: 100px;
+    width: 100px;
+}
+
+.p:nth-child(1){
+    background-color: rgb(155, 241, 147);
+}
+.p:nth-child(2){
+    background-color: rgb(236, 133, 101);
+}
+.p:nth-child(3){
+    background-color: rgb(189, 130, 169);
+}
+.p:nth-child(4){
+    background-color: rgb(166, 218, 171);
+}
+.title{
+    height: 25px;
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+}
